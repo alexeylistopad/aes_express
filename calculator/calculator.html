@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>aes express</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+<div id="frame">
+    <div class="inputs">
+        <div>
+            <label for="point_departure">Пункт отправления</label>
+            <input id="point_departure" type="text">
+        </div>
+        <div>
+            <label for="destination">Пункт назначения</label>
+            <input id="destination" type="text">
+        </div>
+        <div>
+            <label for="urgency">Срочность</label>
+            <select id="urgency">
+                <option>-</option>
+                <option>Стандартный</option>
+            </select>
+        </div>
+        <div>
+            <label for="t_w">Общий вес, кг</label>
+            <input id="t_w" type="text">
+        </div>
+        <div>
+            <label for="type_cargo">Тип груза</label>
+            <select id="type_cargo">
+                <option>-</option>
+                <option>Документы</option>
+                <option>Груз</option>
+            </select>
+        </div>
+        <div>
+            <label id="message">Системное сообщение либо стоимость</label>
+        </div>
+        <ul id="form_list">
+            <li class="el_list">Р1 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р2 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р3 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р4 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р5 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р6 Башкортостан, Белебеевский р-н, г Белебей</li>
+            <li class="el_list">Р7 Башкортостан, Белебеевский р-н, г Белебей</li>
+        </ul>
+    </div>
+    <div class="buttons">
+        <button type="submit" id="b_painted">Рассчитать</button>
+        <button id="b_not_painted">Отмена</button>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="calculator.js"></script>
+</html>
